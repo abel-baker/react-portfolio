@@ -1,0 +1,63 @@
+.portrait {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+.project-card {
+    /* background-image: url('../images/crochet.webp'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border: none;
+    border-radius: 0.5rem;
+    filter: blur(0px) grayscale(10%);;
+}
+.project-text {
+    filter: none;
+}
+#uplift-card div.blur-image {
+    background-image: url('../images/uplift.png');
+    filter: brightness(1.2) blur(2px);
+}
+#weatherbyday-card div.blur-image {
+    background-image: url('../images/weatherbyday.PNG');
+}
+#crochet-card div.blur-image {
+    background-image: url('../images/crochet.webp');
+}
+#loveletter-card div.blur-image {
+    background-image: url('../images/js.webp');
+    background-position: 0 0;
+}
+#runbuddy-card div.blur-image {
+    background-image: url('../images/runbuddy.png');
+    filter: brightness(80%) blur(3px);
+}
+#resume-card div.blur-image {
+    background-image: url('../images/resume.png');
+    background-position: center;
+    filter: brightness(1.5) blur(3px);
+}
+
+.blur-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    filter: blur(3px);
+    
+    /* background-image: url('../images/js.webp'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    z-index: -1;
+}
+
+.blur-card {
+    position: relative;
+    z-index: 2;
+}

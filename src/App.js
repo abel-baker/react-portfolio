@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import React from 'react';
 import Header from './components/Header';
+import Projects from './components/Projects';
 import './App.css';
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
     <>
     <Header />
 
-    <Projects />
+    <main className="main">
+      <Projects />
+    </main>
 
     
     </>

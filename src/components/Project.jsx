@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Project({ id, colSpan = 4, title, subtitle, link, github, titleColor = "#fff", articleClass, divClass, img, filter, transform }) {
+function Project({ id, colSpan = 4, title, subtitle, link, github, titleColor = "#fff", articleClass, divClass, img, filter = "blur(3px)", transform = "", icons }) {
 
   return (
     <div className={`col-lg-${colSpan}`} id={id} key={id}>
@@ -9,18 +9,20 @@ function Project({ id, colSpan = 4, title, subtitle, link, github, titleColor = 
 
           <h2 className="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold"><a href={link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: titleColor }}>{title}</a></h2>
           <p className="mb-4"><small>{subtitle}</small></p>
+          
           <div className="d-flex list-unstyled mt-auto">
-            <li className='me-auto'>
-              <a href={github}><i className='bi-github'></i></a>
-            </li>
-            <li className='d-flex align-items-center ms-auto me-3'>
-              <i className='bi bi-link-45deg me-1'></i>
-              <small>live</small>
-            </li>
-            <li className='d-flex align-items-center'>
-              <i className='bi bi-code-square me-1'></i>
-              <small>MERN</small>
-            </li>
+            {github &&
+              <li className='me-auto' key='github-icon'>
+                <a href={github}><i className='bi-github'></i></a>
+              </li>
+            }
+            
+            {icons.map((icon) => (
+              <li className='d-flex align-items-center'>
+                <i className='bi {icon.i} me-1></i>
+                <small>{icon.t}</small>
+              </li>
+            ))}
           </div>
 
         </div>

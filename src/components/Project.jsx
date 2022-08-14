@@ -4,7 +4,7 @@ function Project({ id, colSpan = 4, title, subtitle, link, github, titleColor = 
 
   return (
     <div className={`col-lg-${colSpan}`} id={id} key={id}>
-      <article id={`${id}-card`} className={`card project-card card-cover h-100 overflow-hidden rounded-5 shadow-lg ${articleClass}`}>
+      <article id={`${id}-card`} className={`card project-card card-cover h-100 overflow-hidden rounded-4 shadow-lg ${articleClass}`}>
         <div className={`d-flex flex-column h-100 p-5 pb-3 ${divClass} text-shadow-2`}>
 
           <h2 className="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold"><a href={link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: titleColor }}>{title}</a></h2>

@@ -1,6 +1,7 @@
 import loveletters from '../assets/img/js.webp';
 import weatherbyday from '../assets/img/weatherbyday.PNG';
 import gathr from '../assets/img/gathr.png';
+import crochet from '../assets/img/crochet.webp';
 
 export default [
   {
@@ -38,9 +39,9 @@ export default [
     titleColor: '#fefae0ff',
     articleClass: 'text-light bg-light',
     divClass: 'text-light',
-    bgImg: gathr,
+    bgImg: crochet,
     bgFilter: '',
-    bgTransform: 'scale(1.4)'
+    bgTransform: ''
   },
   {
     id: 4,

@@ -1,0 +1,13 @@
+
+// Gathr
+class: card project-card card-cover h-100 overflow-hidden text-light bg-dark rounded-5 shadow-lg
+div class: d-flex flex-column h-100 p-5 pb-3 text-light text-shadow-2
+app: https://gathr.herokuapp.com/
+title color: #606c38
+title: Gathr
+subtitle: plan, host, gather
+github: https://github.com/Rbenney15/gathr
+icons: [
+  bi-link-45deg me-1 live,
+  bi-code-square me-1 MERN
+]

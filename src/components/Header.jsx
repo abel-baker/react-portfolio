@@ -1,5 +1,5 @@
 import React from 'react';
-import Avatar from '../img-assets/abel-baker.jpg';
+import Avatar from '../assets/abel-baker.jpg';
 
 function Header() {
 

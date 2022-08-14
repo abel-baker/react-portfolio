@@ -2,6 +2,7 @@ import loveletters from '../assets/img/js.webp';
 import weatherbyday from '../assets/img/weatherbyday.PNG';
 import gathr from '../assets/img/gathr.png';
 import crochet from '../assets/img/crochet.webp';
+import uplift from '../assets/img/uplift.png';
 
 export default [
   {
@@ -15,8 +16,17 @@ export default [
     articleClass: 'text-light bg-light',
     divClass: 'text-light',
     bgImg: gathr,
-    bgFilter: '',
-    bgTransform: 'scale(1.4)'
+    bgTransform: 'scale(1.4)',
+    icons: [
+      {
+        i: "bi-link-45deg",
+        t: "live"
+      },
+      {
+        i: "bi-code-square",
+        t: "MERN"
+      }
+    ]
   },
   {
     id: 2,
@@ -29,43 +39,64 @@ export default [
     articleClass: 'text-dark bg-light',
     divClass: 'text-dark',
     bgImg: weatherbyday,
+    icons: [
+      {
+        i: "bi-link-45deg",
+        t: "live"
+      },
+      {
+        i: "bi-code-square",
+        t: "javascript"
+      }
+    ]
   },
   {
     id: 3,
     title: 'Crochet',
-    subtitle: 'plan, host, gather',
-    link: 'https://gathr.herokuapp.com/',
-    github: 'https://github.com/Rbenney15/gathr',
+    subtitle: 'Tunisian crochet',
+    link: '',
+    github: '',
     titleColor: '#fefae0ff',
-    articleClass: 'text-light bg-light',
-    divClass: 'text-light',
+    articleClass: 'text-white bg-dark',
+    divClass: 'text-white',
     bgImg: crochet,
-    bgFilter: '',
-    bgTransform: ''
+    icons: [
+      {
+        i: "bi-geo-alt",
+        t: "irl"
+      },
+      {
+        i: "bi-code-square",
+        t: "yarn"
+      }
+    ]
   },
   {
     id: 4,
     title: 'Love Letters',
-    subtitle: 'plan, host, gather',
-    link: 'https://gathr.herokuapp.com/',
-    github: 'https://github.com/Rbenney15/gathr',
-    titleColor: '#fefae0ff',
-    articleClass: 'text-light bg-light',
+    subtitle: 'discord bot',
+    link: '',
+    github: '',
+    articleClass: 'text-light bg-dark',
     divClass: 'text-light',
-    bgImg: gathr,
-    bgFilter: '',
-    bgTransform: 'scale(1.4)'
+    bgImg: loveletters,
+    icons: [
+      {
+        i: "bi-code-square",
+        t: "js"
+      }
+    ]
   },
   {
     id: 5,
     title: 'UpLift',
-    subtitle: 'plan, host, gather',
-    link: 'https://gathr.herokuapp.com/',
-    github: 'https://github.com/Rbenney15/gathr',
-    titleColor: '#fefae0ff',
-    articleClass: 'text-light bg-light',
-    divClass: 'text-light',
-    bgImg: gathr,
+    subtitle: 'full-stack workout tracker',
+    link: 'https://uplift-srb.herokuapp.com/',
+    github: 'https://github.com/Rbenney15/UpLift',
+    titleColor: 'rgb(170, 194, 240)',
+    articleClass: 'text-dark bg-dark',
+    divClass: 'text-dark',
+    bgImg: uplift,
     bgFilter: '',
     bgTransform: 'scale(1.4)'
   },

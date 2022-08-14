@@ -97,7 +97,6 @@ export default [
     articleClass: 'text-dark bg-dark',
     divClass: 'text-dark',
     bgImg: uplift,
-    bgFilter: '',
-    bgTransform: 'scale(1.4)'
+    bgFilter: 'brightness(1.2) blur(2px)'
   },
 ];

@@ -31,7 +31,7 @@ function Header() {
             </div>
             <div className="col-lg-6">
                 <h1 className="display-5 fw-bold lh-1 mb-3" style={{textShadow: '1rem 1rem 3rem rgba(0,0,0,.25)'}}><span className="text-nowrap">Abel Baker,</span> <span className="text-nowrap">silly billy</span></h1>
-                <p className="lead"></p>front-end developer, back-end apprentice
+                <p className="lead"></p>apprentice back-end js developer
             </div>
         </div>
       </section>

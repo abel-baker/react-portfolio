@@ -52,6 +52,7 @@ export default [
   },
   {
     id: 3,
+    colSpan: 3,
     title: 'Crochet',
     subtitle: 'Tunisian crochet',
     link: '',
@@ -73,6 +74,7 @@ export default [
   },
   {
     id: 4,
+    colSpan: 5,
     title: 'Love Letters',
     subtitle: 'discord bot',
     link: '',
@@ -97,6 +99,16 @@ export default [
     articleClass: 'text-dark bg-dark',
     divClass: 'text-dark',
     bgImg: uplift,
-    bgFilter: 'brightness(1.2) blur(2px)'
+    bgFilter: 'brightness(1.2) blur(2px)',
+    icons: [
+      {
+        i: "bi-link-45deg",
+        t: "live"
+      },
+      {
+        i: "bi-code-square",
+        t: "mysql2"
+      }
+    ]
   },
 ];

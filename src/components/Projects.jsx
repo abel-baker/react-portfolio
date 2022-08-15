@@ -28,6 +28,7 @@ function Projects() {
             img={project.bgImg}
             filter={project.bgFilter}
             transform={project.bgTransform}
+            icons={project.icons}
           />
         ))}
 

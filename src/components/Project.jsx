@@ -17,9 +17,9 @@ function Project({ id, colSpan = 4, title, subtitle, link, github, titleColor = 
               </li>
             }
             
-            {icons.map((icon) => (
-              <li className='d-flex align-items-center'>
-                <i className='bi {icon.i} me-1></i>
+            {icons && icons.map((icon, index) => (
+              <li className={`d-flex align-items-center ${index == 0 ? 'ms-auto' : 'ms-3'}`}>
+                <i className={`bi ${icon.i} me-1`}></i>
                 <small>{icon.t}</small>
               </li>
             ))}
